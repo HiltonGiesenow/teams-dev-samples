@@ -6,7 +6,7 @@ This SSO sample includes both a .NET and a Node.js version. This readme is speci
 
 Version|Date|Author|Comments
 -------|----|----|--------
-1.0|December055, 2020|Hilton Giesenow|Initial release
+1.0|December 05, 2020|Hilton Giesenow|Initial release
 
 ## Disclaimer
 
@@ -34,9 +34,9 @@ Note also that the value of the `Authority` setting can either be your tenant id
 npm install
 ```
 
-to install the needed npm packages.
+to install the needed npm packages. This needs to be done in both directories because these are separate web projects (a front end and a backend API), so you will need two separate terminal sessions.
 
-5. Run the application, using 2 terminal sessions, run the following in the `nodejs` directory and the `api-server` subdirectory:
+5. Run the applications, in each of the two terminal sessions (one for each of the `nodejs` directory and the `api-server` subdirectory) using the following command in both terminals:
 
 ```shell
 npm run start
